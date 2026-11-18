@@ -30,22 +30,20 @@ Execute the program using runserver command.
 ```
 slot.html
 
-{% load static %}
 <html>
 <head>
     <title>Slot Timetable</title>
 </head>
 <center>
-<img src="{% static 'logo.png' %}" width="700" height="100">
+<img src="logo.png" width="700" height="100">
 </center>
 <body bgcolor="lightyellow">
 
     <h1 align="center">Semester Schedule - G Nitya Sree (26012026)</h1>
 
-    <table border="1" bgcolor="white" align="center"
-           cellpadding="5" cellspacing="1">
+    <table border="1" align="center" cellpadding="5" cellspacing="1" bgcolor="white">
 
-        <tr style="background-color: rgb(243, 115, 147)">
+        <tr bgcolor="pink">
             <th>Timings/Days</th>
             <th>Monday</th>
             <th>Tuesday</th>
@@ -55,8 +53,8 @@ slot.html
             <th>Saturday</th>
         </tr>
 
-        <tr style="background-color:lavender">
-            <th style="background-color: rgb(243, 115, 147);">8:00 - 9:30</th>
+        <tr bgcolor="lavender">
+            <th bgcolor="pink">8:00 - 9:30</th>
             <td>DE</td>
             <td>FREE</td>
             <td>FWAD</td>
@@ -65,7 +63,7 @@ slot.html
             <td>FREE</td>
         </tr>
 
-        <tr  style="background-color:lavender">
+        <tr  bgcolor="lavender">
             <th style="background-color: rgb(243, 115, 147);">9:45 - 11:15</th>
             <td>FWAD</td>
             <td>CDS</td>
@@ -75,8 +73,8 @@ slot.html
             <td>DE</td>
         </tr>
 
-        <tr  style="background-color:lavender">
-            <th style="background-color: rgb(243, 115, 147);">11:30 - 12:15</th>
+        <tr  bgcolor="lavender">
+            <th bgcolor="pink">11:30 - 12:15</th>
             <td>MENTOR MEET</td>
             <td>MENTOR MEET</td>
             <td>MENTOR MEET</td>
@@ -85,13 +83,13 @@ slot.html
             <td>FREE</td>
         </tr>
 
-        <tr  style="background-color:rgb(217, 163, 194)">
-            <th style="background-color: rgb(243, 115, 147);">12:15 - 1:15</th>
+        <tr  bgcolor="lavender">
+            <th bgcolor="pink">12:15 - 1:15</th>
             <td colspan="6" align="center">LUNCH</td>
         </tr>
 
-        <tr  style="background-color:lavender">
-            <th style="background-color: rgb(243, 115, 147);">1:15 - 2:45</th>
+        <tr  bgcolor="lavender">
+            <th bgcolor="pink">1:15 - 2:45</th>
             <td>FREE</td>
             <td>FWAD</td>
             <td>FREE</td>
@@ -100,8 +98,8 @@ slot.html
             <td>ENG</td>
         </tr>
 
-        <tr  style="background-color:lavender">
-            <th style="background-color: rgb(243, 115, 147);">3:00 - 4:30</th>
+        <tr  bgcolor="lavender">
+            <th bgcolor="pink">3:00 - 4:30</th>
             <td>FREE</td>
             <td>FREE</td>
             <td>PY</td>
@@ -112,10 +110,9 @@ slot.html
 
     </table><br>
     
-    <table border="1" bgcolor = "white" align="center"
-    cellpadding="6" cellspacing="2">
+    <table border="1" align="center" cellpadding="6" cellspacing="2" bgcolor="white">
     
-        <tr style="background-color: rgb(243, 115, 147);">
+        <tr bgcolor="pink">
             <th>S. No.</th>
             <th>Subject Code</th>
             <th>Subjects</th>
