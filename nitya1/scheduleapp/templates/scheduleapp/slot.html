@@ -1,130 +1,114 @@
-{% load static %}
 <html>
 <head>
-    <title>Slot Timetable</title>
+    <title>Slot Time Table</title>
 </head>
-<center>
-<img src="{% static 'logo.png' %}" width="700" height="100">
-</center>
-<body bgcolor="lightyellow">
+<body>
 
-    <h1 align="center">Semester Schedule - G Nitya Sree (26012026)</h1>
+    <center>
+        <img src="logo.png" width="700" height="90">
+        <p><b>SLOT TIME TABLE - G Nitya Sree (26012026)</b></p>
+        <table border="3" cellspacing="3" cellpadding="8" bgcolor="cyan">
+            <tr bgcolor="yellow">
+                <th>Day/Time</th>
+                <th>8-9:30</th>
+                <th>9:45-11:15</th>
+                <th>11:30-1</th>
+                <th>1:15-2:45</th>
+                <th>3-4:30</th>
+            </tr>
+            <tr align="center">
+                <th bgcolor="yellow">MONDAY</th>
+                <td>DE</td>
+                <td>FWAD</td>
+                <td>LUNCH</td>
+                <td colspan="2">FREE SLOT</td>
+            </tr>
+            <tr align="center">
+                <th bgcolor="yellow">TUESDAY</th>
+                <td>FREE SLOT</td>
+                <td>CDS</td>
+                <td>LUNCH</td>
+                <td>FWAD</td>
+                <td>FREE SLOT</td>
+            </tr>
+            <tr align="center">
+                <th bgcolor="yellow">WEDNESDAY</th>
+                <td>FWAD</td>
+                <td>FREE SLOT</td>
+                <td>LUNCH</td>
+                <td>FREE SLOT</td>
+                <td>PY</td>
+            </tr>
+            <tr align="center">
+                <th bgcolor="yellow">THURSDAY</th>
+                <td>ENG</td>
+                <td>SNMD</td>
+                <td>LUNCH</td>
+                <td>JAP</td>
+                <td>FREE SLOT</td>
+            </tr>
+            <tr align="center">
+                <th bgcolor="yellow">FRIDAY</th>
+                <td>SNMD</td>
+                <td>FREE SLOT</td>
+                <td>LUNCH</td>
+                <td>JAP</td>
+                <td>PY</td>
+            </tr>
+             <tr align="center">
+                <th bgcolor="yellow">SATURDAY</th>
+                <td>FREE SLOT</td>
+                <td>DE</td>
+                <td>LUNCH</td>
+                <td>ENG</td>
+                <td>PY</td>
+            </tr>
+        </table>
 
-    <table border="1" bgcolor="white" align="center"
-           cellpadding="5" cellspacing="1">
+        <br><br>
 
-        <tr style="background-color: rgb(243, 115, 147)">
-            <th>Timings/Days</th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-            <th>Saturday</th>
-        </tr>
+        <table border="2" cellspacing="3" cellpadding="6">
+            <tr>
+                <th>S. No.</th>
+                <th>Subject Code</th>
+                <th>Subject Name</th>
+            </tr>
+            <tr>
+                <td align="center">1.</td>
+                <td align="center">19AI414</td>
+                <td>FUNDAMENTALS OF WEB APPLICATION AND DEVELOPMENT (FWAD)</td>
+            </tr>
+            <tr>
+                <td align="center">2.</td>
+                <td align="center">19EE404</td>
+                <td>DIGITAL ELECTRONICS (DE)</td>
+            </tr>
+            <tr>
+                <td align="center">3.</td>
+                <td align="center">19AI301</td>
+                <td>PYTHON PROGRAMMING (PY)</td>
+            </tr>
+            <tr>
+                <td align="center">4.</td>
+                <td align="center">SH2211</td>
+                <td>STATISTICS AND NUMERICAL METHODS (SNMD)</td>
+            </tr>
+            <tr>
+                <td align="center">5.</td>
+                <td align="center">SH6708</td>
+                <td>CAREER DEVELOPMENT SKILLS (CDS)</td>
+            </tr>
+            <tr>
+                <td align="center">6.</td>
+                <td align="center">SH1011</td>
+                <td>COMMUNICATIVE ENGLISH (ENG)</td>
+            </tr>
+            <tr>
+                <td align="center">7.</td>
+                <td align="center">SH5624</td>
+                <td>JAPANESE (JAP)</td>
+        </table>
+    </center>
 
-        <tr style="background-color:lavender">
-            <th style="background-color: rgb(243, 115, 147);">8:00 - 9:30</th>
-            <td>DE</td>
-            <td>FREE</td>
-            <td>FWAD</td>
-            <td>ENG</td>
-            <td>STATS</td>
-            <td>FREE</td>
-        </tr>
-
-        <tr  style="background-color:lavender">
-            <th style="background-color: rgb(243, 115, 147);">9:45 - 11:15</th>
-            <td>FWAD</td>
-            <td>CDS</td>
-            <td>FREE</td>
-            <td>STATS</td>
-            <td>FREE</td>
-            <td>DE</td>
-        </tr>
-
-        <tr  style="background-color:lavender">
-            <th style="background-color: rgb(243, 115, 147);">11:30 - 12:15</th>
-            <td>MENTOR MEET</td>
-            <td>MENTOR MEET</td>
-            <td>MENTOR MEET</td>
-            <td>MENTOR MEET</td>
-            <td>MENTOR MEET</td>
-            <td>FREE</td>
-        </tr>
-
-        <tr  style="background-color:rgb(217, 163, 194)">
-            <th style="background-color: rgb(243, 115, 147);">12:15 - 1:15</th>
-            <td colspan="6" align="center">LUNCH</td>
-        </tr>
-
-        <tr  style="background-color:lavender">
-            <th style="background-color: rgb(243, 115, 147);">1:15 - 2:45</th>
-            <td>FREE</td>
-            <td>FWAD</td>
-            <td>FREE</td>
-            <td>JAP</td>
-            <td>JAP</td>
-            <td>ENG</td>
-        </tr>
-
-        <tr  style="background-color:lavender">
-            <th style="background-color: rgb(243, 115, 147);">3:00 - 4:30</th>
-            <td>FREE</td>
-            <td>FREE</td>
-            <td>PY</td>
-            <td>FREE</td>
-            <td>PY</td>
-            <td>PY</td>
-        </tr>
-
-    </table><br>
-    
-    <table border="1" bgcolor = "white" align="center"
-    cellpadding="6" cellspacing="2">
-    
-        <tr style="background-color: rgb(243, 115, 147);">
-            <th>S. No.</th>
-            <th>Subject Code</th>
-            <th>Subjects</th>
-        </tr>
-
-        <tr>
-            <td>1.</td>
-            <td>19AI414</td>
-            <td>Fundamentals of Web Application Development (FWAD)</td>
-        </tr>
-
-        <tr>
-            <td>2.</td>
-            <td>19EE404</td>
-            <td>Digital Electronics (DE)</td>
-        </tr>
-
-        <tr>
-            <td>3.</td>
-            <td>SH2211</td>
-            <td>Statistics and Numerical Methods (STATS)</td>
-        </tr>
-
-        <tr>
-            <td>4.</td>
-            <td>SH1101</td>
-            <td>Communicative English (ENG)</td>
-        </tr>
-
-        <tr>
-            <td>5.</td>
-            <td>CS3301</td>
-            <td>Python (PY)</td>
-        </tr>
-
-        <tr>
-            <td>6.</td>
-            <td>SH6708</td>
-            <td>Career Development Skills (CDS)</td>
-        </tr>
-
-    </table>
 </body>
 </html>
