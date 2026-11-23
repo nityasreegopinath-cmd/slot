@@ -157,9 +157,10 @@ urlpatterns = [path('', views.slot, name='slot'),]
 ```
 ## OUTPUT
 
-![alt text](image-2.png)
+<img width="1920" height="1080" alt="Screenshot 2026-11-23 235419" src="https://github.com/user-attachments/assets/b3d1a981-48e1-46a4-a1f5-73bcefef0746" />
 
-![alt text](image-3.png)
+<img width="1920" height="1080" alt="Screenshot 2026-11-23 235552" src="https://github.com/user-attachments/assets/729cfaf6-1e10-46d5-b201-f0773673283c" />
+
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
