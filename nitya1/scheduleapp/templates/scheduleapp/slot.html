@@ -1,3 +1,4 @@
+{% load static %}
 <html>
 <head>
     <title>Slot Time Table</title>
@@ -5,8 +6,8 @@
 <body>
 
     <center>
-        <img src="logo.png" width="700" height="90">
-        <p><b>SLOT TIME TABLE - G Nitya Sree (26012026)</b></p>
+        <img src="{% static 'logo.png' %}" width="600px" height="80px" >
+        <p><b>SLOT TIME TABLE - G NITYA SREE (26012026)</b></p>
         <table border="3" cellspacing="3" cellpadding="8" bgcolor="cyan">
             <tr bgcolor="yellow">
                 <th>Day/Time</th>
@@ -65,7 +66,7 @@
             </tr>
         </table>
 
-        <br><br>
+        <br>
 
         <table border="2" cellspacing="3" cellpadding="6">
             <tr>

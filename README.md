@@ -1,9 +1,5 @@
 # Ex02 Time Table
-<<<<<<< HEAD
-## Date: 23.11.2026
-=======
-## Date: 24.11.2026 
->>>>>>> 737d3c998af61ed5f234344dc737d053412e94a3
+## Date: 25.11.2026 
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -39,8 +35,8 @@ Execute the program using runserver command.
 <body>
 
     <center>
-        <img src="logo.png" width="700" height="90">
-        <p><b>SLOT TIME TABLE - G Nitya Sree (26012026)</b></p>
+        <img src='logo.png' width="600px" height="80px">
+        <p><b>SLOT TIME TABLE - G NITYA SREE (26012026)</b></p>
         <table border="3" cellspacing="3" cellpadding="8" bgcolor="cyan">
             <tr bgcolor="yellow">
                 <th>Day/Time</th>
@@ -99,7 +95,7 @@ Execute the program using runserver command.
             </tr>
         </table>
 
-        <br><br>
+        <br>
 
         <table border="2" cellspacing="3" cellpadding="6">
             <tr>
@@ -146,31 +142,11 @@ Execute the program using runserver command.
 
 </body>
 </html>
-views.py
 
-from django.shortcuts import render
-def slot(request):
-    return render(request,'scheduleapp/slot.html')
-
-urls.py
-
-from django.urls import path
-from . import views
-
-urlpatterns = [path('', views.slot, name='slot'),]
 ```
 ## OUTPUT
 
-<<<<<<< HEAD
-![alt text](image-2.png)
-
-![alt text](image-3.png)
-=======
-<img width="1920" height="1080" alt="Screenshot 2026-11-23 235419" src="https://github.com/user-attachments/assets/b3d1a981-48e1-46a4-a1f5-73bcefef0746" />
-
-<img width="1920" height="1080" alt="Screenshot 2026-11-23 235552" src="https://github.com/user-attachments/assets/729cfaf6-1e10-46d5-b201-f0773673283c" />
-
->>>>>>> 737d3c998af61ed5f234344dc737d053412e94a3
+![alt text](image-1.png)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
